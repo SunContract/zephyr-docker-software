@@ -25,7 +25,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: irnas/ncs-zephyr
+  IMAGE_NAME: suncontract/ncs-zephyr
 
 jobs:
   publish:
