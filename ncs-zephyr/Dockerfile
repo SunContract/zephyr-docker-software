@@ -74,7 +74,7 @@ SHELL [ "/bin/bash", "-euxo", "pipefail", "-c" ]
 
 # NCS SDK
 RUN \
-  wget https://developer.nordicsemi.com/.pc-tools/nrfutil/x64-linux/nrfutil \
+  wget https://files.nordicsemi.com/artifactory/swtools/external/nrfutil/executables/x86_64-unknown-linux-gnu/nrfutil \
   && chmod +x nrfutil \
   && mv nrfutil /usr/bin \
   && nrfutil self-upgrade --to-version $NRFUTIL_VERSION \
